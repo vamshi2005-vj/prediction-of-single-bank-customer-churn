@@ -1,13 +1,13 @@
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-\# Bank Customer Churn Prediction (Single Customer)
-\## Project Overview
-This Flask web application predicts whether a \*\*single bank customer\*\* is at risk of leaving the bank (churn) based on their personal and financial information.  
-\*\*Features:\*\*
-\- Predict churn for one customer at a time.
-\- Automatically saves at-risk customers in an Excel file (`risk\_customers.xlsx`).
-\- Built with \*\*Flask\*\*, \*\*scikit-learn\*\*, \*\*pandas\*\*, and \*\*joblib\*\*.
+Bank Customer Churn Prediction (Single Customer)
+Project Overview:
+This Flask web application predicts whether a single bank customer is at risk of leaving the bank (churn) based on their personal and financial information.  
+Features:
+Predict churn for one customer at a time.
+Automatically saves at-risk customers in an Excel file (`risk\_customers.xlsx`).
+\- Built withFlask,scikit-learn,panda and joblib.
 ---
 
 \## Project Structure
@@ -18,11 +18,11 @@ This Flask web application predicts whether a \*\*single bank customer\*\* is at
 ├─ .gitignore # Files/folders to ignore
 ├─ README.md # Project documentation
 
-> \*\*Note:\*\* Large data and model files (`Churn\_Modelling.csv`, `churn\_predict\_model.pkl`) are \*\*not included\*\* in the repo. Place them locally to run the app.
+*Note:Large data and model files (`Churn\_Modelling.csv`, `churn\_predict\_model.pkl`) are not included in the repo. Place them locally to run the app.
 ---
-\## Setup Instructions
+Setup Instructions
 
-1\. \*\*Clone the repository\*\*
+1Clone the repository
 ```bash
 git clone https://github.com/vamshi2005-vj/prediction-of-single-bank-customer-churn.git
 cd prediction-of-single-bank-customer-churn
@@ -30,9 +30,9 @@ cd prediction-of-single-bank-customer-churn
 2.Create and activate a virtual environment
 python -m venv .venv
 
-\# Windows
+Windows
 .\\.venv\\Scripts\\Activate
-\# macOS/Linux
+macOS/Linux
 source .venv/bin/activate
 
 3.Install dependencies

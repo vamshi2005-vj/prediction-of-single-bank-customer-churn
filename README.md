@@ -10,12 +10,15 @@ Automatically saves at-risk customers in an Excel file (`risk\_customers.xlsx`).
 Built withFlask,scikit-learn,panda and joblib.
 
 ##Project Structure:
-├─ app.py # Main Flask app
-├─ requirements.txt # Python dependencies
-├─ templates/ # HTML templates (index.html)
-├─ static/ # CSS, JS, images (if any)
-├─ .gitignore # Files/folders to ignore
-├─ README.md # Project documentation
+## Project Structure
+- `app.py`            → Main Flask application
+- `requirements.txt`  → Python dependencies
+- `templates/`        → HTML templates (e.g., index.html)
+- `static/`           → CSS, JS, images (if any)
+- `.gitignore`        → Files/folders to ignore in Git
+- `README.md`         → Project documentation
+- `LICENSE`           → MIT License
+
 
 **Note:**Large data and model files (`Churn\_Modelling.csv`, `churn\_predict\_model.pkl`) are not included in the repo. Place them locally to run the app.
 

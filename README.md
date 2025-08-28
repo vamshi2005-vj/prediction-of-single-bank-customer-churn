@@ -2,7 +2,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 Bank Customer Churn Prediction (Single Customer)
-Project Overview:
+PROJECT OVERVIEW:
 This Flask web application predicts whether a single bank customer is at risk of leaving the bank (churn) based on their personal and financial information.  
 Features:
 Predict churn for one customer at a time.

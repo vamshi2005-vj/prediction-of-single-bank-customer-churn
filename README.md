@@ -1,16 +1,12 @@
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-# Multi-Customer Bank Churn Prediction
+# Customer Bank Churn Prediction:One customer at a time
 
 ## PROJECT OVERVIEW:
 This Flask web application predicts whether multiple bank customers are at risk of leaving the bank (churn) based on their personal and financial information.  
-Supports **single-customer** predictions via a form and **multi-customer predictions** via CSV upload.  
+Supports **single-customer** predictions via a form.  
 **Features**
-- User authentication with **admin** and **employee** login.
-- Password hashing for security.
-- OTP-based password reset sent to registered emails.
-- Bulk predictions via CSV upload.
 - Saves at-risk customers automatically in an Excel file (`at_risk_customers.xlsx`).
 - Built with Flask, scikit-learn, pandas, joblib, and SQLite.
 
